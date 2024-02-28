@@ -1,0 +1,80 @@
+@charset "UTF-8";
+.header {
+  background: grey;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #242424;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+$first-color: red;
+$xxl: 100px;
+$xl:50px;
+
+$main-global:red;
+
+h1{color:$first-color;}
+
+body{
+
+}
+
+h1{color:$main-global;}
+
+p{
+    color: red;
+    a{
+        color: blue;
+    }
+}
+
+//NESTING
+/*.navegacion{
+    background: crimson;
+    &-item{
+        color:orange;
+    }
+
+        &-link{
+            color:orange;
+        }
+}*/
+/*Archivo parsher
+se crea un archivo que empieze con guion bajo y el nombre del
+archivo scss "_footer.scss", luego ese archivo se enlaza al archivo
+css general. se usa @import '_footer.scss';  esto al comienzo de archivo scss.
+*/
+/*separa en pequños archiros el css para diferentes partes de la página*/
+.caja {
+  width: 500px;
+  background: crimson;
+}
+
+
+.box {
+  background: grey;
+}
+.box .item {
+  background: orange;
+}
+.box .item a {
+  background: red;
+}
+
+
+.uno {
+  color: red;
+}
+.uno-item {
+  color: yellow;
+  background: #000;
+}/*# sourceMappingURL=style.css.map */
