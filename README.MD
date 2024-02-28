@@ -1,33 +1,33 @@
-# Desventajas de CSS Plano
+# - Desventajas de CSS Plano
 
 # Dificil de mantener
 
 # Puede volverse extenso proyectos grandes
 
-# Que es un pre procesador
+# ¿Que es un pre procesador?
 
 # Es un programa que procesa el código css
 
-# Que es SASS
+# ¿Que es SASS?
 
-# es un lenguaje que extiende las capacidades de CSS
+# Es un lenguaje que extiende las capacidades de CSS
 
-# COMPILACION
+# - COMPILACION
 
 # Transformar el codigo en otros lenguaje
 
-# VARIABLES
+# - VARIABLES
 
 # Son espacios en memoria
 
-# ANIDAMIENTO
+# - ANIDAMIENTO
 
 # Anida codigo css padre y luego sus hijos
 
-# NESTING
+# - NESTING
 
 # Es anidar codigo css haciendo referncia al padre.
 
-# MODULARIDAD
+# - MODULARIDAD
 
 # crea archivos independientes para ordenarlos
